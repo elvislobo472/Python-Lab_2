@@ -48,7 +48,7 @@ try:
 except ValueError as e:
     print("Error:", e)
 
-print("Sum:", calc_sum(empty_list))  # This should return 0
+print("Sum:", calc_sum(empty_list)) 
 try:
     print("Average:", comp_avg(empty_list))
 except ValueError as e:

@@ -1,4 +1,3 @@
-
 def max_1(x):
     if not x:
         raise ValueError("The list is empty.")

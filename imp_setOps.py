@@ -4,7 +4,7 @@ from mod_setOps import (
     is_subs, set_len, sym_diff, pow_set, uni_subset
 )
 
-set1 = {1, 2, 3, 4, 8, 10}
+set1 = {1, 2, 3, 4, 5, 8, 10}
 set2 = {3, 4, 5, 6, 19, 15}
 
 
@@ -28,9 +28,9 @@ diff = diff(set1, set2)
 print("\nDifference Set1 - Set2:", diff)
 
 
-print("\nIs Set2 a subset of Set1?", is_subs(set2, set1))
+print("\nSet2 subset of Set1?", is_subs(set2, set1))
 
-print("\nLength of Set1 (without len()):", set_len(set1))
+print("\nLength of Set1:", set_len(set1))
 
 
 sym_diff = sym_diff(set1, set2)
@@ -40,5 +40,5 @@ print("\nSymmetric Difference of Set1 and Set2:", sym_diff)
 power_set1 = pow_set(set1)
 print("\nPower Set of Set1:", power_set1)
 
-unique_subs = uni_subset(set1)
+unique_subs = uni_subset(set2)
 print("\nUnique Subsets of Set1:", unique_subs)

@@ -19,7 +19,11 @@ def main():
 
     print(library.srch_bk("Abraham Silberschatz", by='author'))
 
+    
+
     print(list(library.list_books()))
+
+    print(library.srch_bk("Clifford A. Shaffer", by='author'))
 
     library.update_dets("1001", year=2023)
     
